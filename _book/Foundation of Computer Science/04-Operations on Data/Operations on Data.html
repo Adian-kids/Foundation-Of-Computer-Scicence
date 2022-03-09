@@ -1,0 +1,574 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Operations On Data · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../05-Computer Organization/Computer Organization.html" />
+    
+    
+    <link rel="prev" href="../03-Data Storage/Data Storage.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Foundation Of Computer Science</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../01-Introduction/Introduction.html">
+            
+                <a href="../01-Introduction/Introduction.html">
+            
+                    
+                    Summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../02-Number System/Number System.html">
+            
+                <a href="../02-Number System/Number System.html">
+            
+                    
+                    Number System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../03-Data Storage/Data Storage.html">
+            
+                <a href="../03-Data Storage/Data Storage.html">
+            
+                    
+                    Data Storage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="Operations on Data.html">
+            
+                <a href="Operations on Data.html">
+            
+                    
+                    Operations On Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../05-Computer Organization/Computer Organization.html">
+            
+                <a href="../05-Computer Organization/Computer Organization.html">
+            
+                    
+                    Computer Organization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../06-Computer Network and Internet/Computer Network and Internet.html">
+            
+                <a href="../06-Computer Network and Internet/Computer Network and Internet.html">
+            
+                    
+                    Computer Network And Internet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../07-Operating Systems/Operating Systems.html">
+            
+                <a href="../07-Operating Systems/Operating Systems.html">
+            
+                    
+                    Operating Systems
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../08-Algorithms/Algorithms.html">
+            
+                <a href="../08-Algorithms/Algorithms.html">
+            
+                    
+                    Algorithms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../09-Programming Languages/Programming Languages.html">
+            
+                <a href="../09-Programming Languages/Programming Languages.html">
+            
+                    
+                    Programming Languages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../10-Software Engineering/Software Engineering.html">
+            
+                <a href="../10-Software Engineering/Software Engineering.html">
+            
+                    
+                    Software Engineering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../11-Data Structure/Data Structure.html">
+            
+                <a href="../11-Data Structure/Data Structure.html">
+            
+                    
+                    Data Structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../12-Abstract Data Types/Abstract Data Types.html">
+            
+                <a href="../12-Abstract Data Types/Abstract Data Types.html">
+            
+                    
+                    Abstract Data Types
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../13-File Structure/File Structure.html">
+            
+                <a href="../13-File Structure/File Structure.html">
+            
+                    
+                    File Structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../14-Databases/Databases.html">
+            
+                <a href="../14-Databases/Databases.html">
+            
+                    
+                    Databases
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../15-Data Compression/Data Compression.html">
+            
+                <a href="../15-Data Compression/Data Compression.html">
+            
+                    
+                    Data Compression
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../16-Security/Security.html">
+            
+                <a href="../16-Security/Security.html">
+            
+                    
+                    Security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../17-Theory of Computation/Theory of Computation.html">
+            
+                <a href="../17-Theory of Computation/Theory of Computation.html">
+            
+                    
+                    Theory Of Computation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="../18-Artificial Intelligence/Artificial Intelligence.html">
+            
+                <a href="../18-Artificial Intelligence/Artificial Intelligence.html">
+            
+                    
+                    Artificial Intelligence
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Operations On Data</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x6570;&#x636E;&#x8FD0;&#x7B97;">&#x6570;&#x636E;&#x8FD0;&#x7B97;</h1>
+<h2 id="&#x903B;&#x8F91;&#x8FD0;&#x7B97;">&#x903B;&#x8F91;&#x8FD0;&#x7B97;</h2>
+<p>&#x903B;&#x8F91;&#x8FD0;&#x7B97;&#x662F;&#x6307;&#x90A3;&#x4E9B;&#x5E94;&#x7528;&#x4E8E;&#x6A21;&#x5F0F;&#x4E2D;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x4E8C;&#x8FDB;&#x5236;&#x4F4D;&#xFF0C;&#x5728;&#x4E24;&#x4E2A;&#x6A21;&#x5F0F;&#x4E2D;&#x76F8;&#x5E94;&#x7684;&#x4E24;&#x4E2A;&#x4E8C;&#x8FDB;&#x5236;&#x4F4D;&#x7684;&#x76F8;&#x540C;&#x57FA;&#x672C;&#x8FD0;&#x7B97;&#xFF0C;&#x8FD9;&#x610F;&#x5473;&#x7740;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5728;&#x4F4D;&#x5C42;&#x6B21;&#x4E0A;&#x6216;&#x6A21;&#x5F0F;&#x5C42;&#x6B21;&#x4E0A;&#x5B9A;&#x4E49;&#x903B;&#x8F91;&#x8FD0;&#x7B97;</p>
+<p>&#x6A21;&#x5F0F;&#x5C42;&#x6B21;&#x4E0A;&#x7684;&#x903B;&#x8F91;&#x8FD0;&#x7B97;&#x662F;&#x5177;&#x6709;&#x76F8;&#x540C;&#x7C7B;&#x578B;&#x7684;&#x4F4D;&#x5C42;&#x6B21;&#x4E0A;&#x7684;n&#x4E2A;&#x903B;&#x8F91;&#x8FD0;&#x7B97;&#xFF0C;&#x8FD9;&#x91CC;&#x7684;n&#x5C31;&#x662F;&#x4F4D;&#x6A21;&#x5F0F;&#x4E2D;&#x7684;&#x4F4D;&#x7684;&#x6570;&#x76EE;</p>
+<h3 id="&#x4F4D;&#x5C42;&#x6B21;&#x4E0A;&#x7684;&#x903B;&#x8F91;&#x8FD0;&#x7B97;">&#x4F4D;&#x5C42;&#x6B21;&#x4E0A;&#x7684;&#x903B;&#x8F91;&#x8FD0;&#x7B97;</h3>
+<p>&#x4E00;&#x4E2A;&#x4F4D;&#x662F;0&#x6216;1&#xFF0C;&#x5047;&#x8BBE;0&#x4EE3;&#x8868;&#x903B;&#x8F91;&#x5047;&#xFF0C;1&#x4EE3;&#x8868;&#x903B;&#x8F91;&#x771F;&#xFF0C;&#x6211;&#x4EEC;&#x5E94;&#x7528;&#x5E03;&#x5C14;&#x4EE3;&#x6570;&#x4E2D;&#x5B9A;&#x4E49;&#x7684;&#x8FD0;&#x7B97;&#x53BB;&#x64CD;&#x7EB5;&#x4E8C;&#x8FDB;&#x5236;&#x4F4D;</p>
+<p>&#x6211;&#x4EEC;&#x8BB2;&#x8FF0;&#x4EE5;&#x4E0B;&#x56DB;&#x79CD;&#x903B;&#x8F91;&#x8FD0;&#x7B97;</p>
+<p><img src="pic/pic1.png" alt="image-20211225155104904"></p>
+<h4 id="&#x975E;not">&#x975E;NOT</h4>
+<p>NOT&#x8FD0;&#x7B97;&#x662F;&#x4E00;&#x79CD;&#x4E00;&#x5143;&#x8FD0;&#x7B97;&#x7B26;&#xFF0C;&#x4ED6;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x8F93;&#x5165;&#xFF0C;&#x8F93;&#x51FA;&#x662F;&#x8F93;&#x5165;&#x7684;&#x76F8;&#x53CD;&#xFF0C;&#x6BD4;&#x5982;&#x8F93;&#x5165;0&#x8F93;&#x51FA;1&#xFF0C;&#x8F93;&#x5165;1&#x8F93;&#x51FA;0</p>
+<h4 id="&#x4E0E;and">&#x4E0E;AND</h4>
+<p>&#x662F;&#x4E8C;&#x5143;&#x8FD0;&#x7B97;&#x7B26;&#xFF0C;&#x6709;&#x4E24;&#x4E2A;&#x8F93;&#x5165;&#x4F4D;</p>
+<p><strong>&#x540C;&#x771F;&#x5219;&#x771F;&#xFF0C;&#x5176;&#x4F59;&#x4E3A;&#x5047;</strong></p>
+<h4 id="&#x6216;or">&#x6216;or</h4>
+<p>&#x4E5F;&#x662F;&#x4E8C;&#x5143;&#x8FD0;&#x7B97;&#x7B26;&#xFF0C;&#x6709;&#x4E24;&#x4E2A;&#x8F93;&#x5165;&#x4F4D;</p>
+<p><strong>&#x540C;&#x5047;&#x5219;&#x5047;&#xFF0C;&#x4E00;&#x771F;&#x5219;&#x771F;</strong></p>
+<h4 id="&#x5F02;&#x6216;xor">&#x5F02;&#x6216;XOR</h4>
+<p>&#x4E5F;&#x662F;&#x4E8C;&#x5143;&#x8FD0;&#x7B97;&#x7B26;&#xFF0C;&#x6709;&#x4E24;&#x4E2A;&#x8F93;&#x5165;&#x4F4D;</p>
+<p><strong>&#x76F8;&#x540C;&#x5219;&#x5047;&#xFF0C;&#x4E0D;&#x540C;&#x5219;&#x771F;</strong></p>
+<h3 id="&#x6A21;&#x5F0F;&#x5C42;&#x6B21;&#x4E0A;&#x7684;&#x903B;&#x8F91;&#x8FD0;&#x7B97;">&#x6A21;&#x5F0F;&#x5C42;&#x6B21;&#x4E0A;&#x7684;&#x903B;&#x8F91;&#x8FD0;&#x7B97;</h3>
+<p>&#x76F8;&#x540C;&#x7684;&#x56DB;&#x4E2A;&#x8FD0;&#x7B97;&#x7B26;&#xFF08;NOT,AND,OR,XOR&#xFF09;&#x53EF;&#x4EE5;&#x88AB;&#x5E94;&#x7528;&#x5230;n&#x4F4D;&#x6A21;&#x5F0F;&#xFF0C;&#x6548;&#x679C;&#x5C31;&#x662F;&#x5BF9;NOT&#x6765;&#x8BF4;&#xFF0C;&#x628A;&#x6BCF;&#x4E2A;&#x8FD0;&#x7B97;&#x7B26;&#x5E94;&#x7528;&#x4E8E;&#x6BCF;&#x4E2A;&#x4F4D;&#xFF0C;&#x5BF9;&#x4E8E;&#x5176;&#x4ED6;&#x4E09;&#x4E2A;&#x6765;&#x8BF4;&#xFF0C;&#x5C31;&#x662F;&#x628A;&#x6BCF;&#x4E2A;&#x8FD0;&#x7B97;&#x7B26;&#x5E94;&#x7528;&#x4E8E;&#x76F8;&#x5E94;&#x7684;&#x4F4D;&#x5BF9;</p>
+<p><img src="pic/pic2.png" alt="image-20211225155602041"></p>
+<p>&#x4EE5;&#x4E0B;&#x4E3A;&#x8FD0;&#x7B97;&#x793A;&#x4F8B;</p>
+<p><img src="pic/pic3.png" alt="image-20211225155656566"></p>
+<p>&#x8FD9;&#x56DB;&#x79CD;&#x903B;&#x8F91;&#x8FD0;&#x7B97;&#x53EF;&#x7528;&#x4E8E;&#x4FEE;&#x6539;&#x4F4D;&#x6A21;&#x5F0F;</p>
+<h4 id="&#x6C42;&#x53CD;">&#x6C42;&#x53CD;</h4>
+<p>NOT&#x8FD0;&#x7B97;&#x7B26;&#x7684;&#x552F;&#x4E00;&#x5E94;&#x7528;&#x5C31;&#x662F;&#x5BF9;&#x6574;&#x4E2A;&#x6A21;&#x5F0F;&#x6C42;&#x53CD;&#xFF0C;&#x628A;0&#x548C;1&#x5012;&#x7F6E;</p>
+<p>&#x5982;&#x4E0A;&#x56FE;&#x4F8B;4.3</p>
+<h4 id="&#x4F7F;&#x6307;&#x5B9A;&#x7684;&#x4F4D;-&#x590D;&#x4F4D;&#xFF08;&#x7F6E;0&#xFF09;">&#x4F7F;&#x6307;&#x5B9A;&#x7684;&#x4F4D; &#x590D;&#x4F4D;&#xFF08;&#x7F6E;0&#xFF09;</h4>
+<p>&#x4E0E;&#x8FD0;&#x7B97;(AND)&#x7684;&#x4E00;&#x4E2A;&#x5E94;&#x7528;&#x5C31;&#x662F;&#x628A;&#x4E00;&#x4E2A;&#x4F4D;&#x6A21;&#x5F0F;&#x7684;&#x6307;&#x5B9A;&#x4F4D;<strong>&#x590D;&#x4F4D;&#xFF08;&#x7F6E;0&#xFF09;</strong>&#xFF0C;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#x7B2C;&#x4E8C;&#x4E2A;&#x8F93;&#x5165;&#x79F0;&#x4E3A;<strong>&#x63A9;&#x7801;</strong></p>
+<p>&#x63A9;&#x7801;&#x4E2D;&#x7684;0&#x4F4D;&#x5BF9;&#x7B2C;&#x4E00;&#x4E2A;&#x8F93;&#x5165;&#x4E2D;&#x76F8;&#x5E94;&#x7684;&#x4F4D;&#x8FDB;&#x884C;&#x590D;&#x4F4D;&#xFF0C;&#x63A9;&#x7801;&#x4E2D;&#x7684;1&#x4F4D;&#x4F7F;&#x5F97;&#x7B2C;&#x4E00;&#x4E2A;&#x8F93;&#x5165;&#x4E2D;&#x76F8;&#x5E94;&#x7684;&#x4F4D;&#x4FDD;&#x6301;&#x4E0D;&#x53D8;</p>
+<p><img src="pic/pic4.png" alt="image-20211225161052570"></p>
+<h4 id="&#x5BF9;&#x6307;&#x5B9A;&#x7684;&#x4F4D;-&#x7F6E;&#x4F4D;&#xFF08;&#x7F6E;1&#xFF09;">&#x5BF9;&#x6307;&#x5B9A;&#x7684;&#x4F4D; &#x7F6E;&#x4F4D;&#xFF08;&#x7F6E;1&#xFF09;</h4>
+<p>&#x540C;&#x4E0A;&#x4F7F;&#x7528;&#x63A9;&#x7801;&#xFF0C;&#x4F46;&#x662F;&#x4F7F;&#x7528;&#x6216;&#x8FD0;&#x7B97;(OR)</p>
+<p><img src="pic/pic5.png" alt="image-20211225161254678"></p>
+<h4 id="&#x4F7F;&#x6307;&#x5B9A;&#x7684;&#x4F4D;&#x53CD;&#x8F6C;">&#x4F7F;&#x6307;&#x5B9A;&#x7684;&#x4F4D;&#x53CD;&#x8F6C;</h4>
+<p>&#x4F7F;&#x7528;&#x63A9;&#x7801;&#x548C;&#x5F02;&#x6216;&#x8FD0;&#x7B97;</p>
+<p><img src="pic/pic6.png" alt="image-20211225161344209"></p>
+<h2 id="&#x79FB;&#x4F4D;&#x8FD0;&#x7B97;">&#x79FB;&#x4F4D;&#x8FD0;&#x7B97;</h2>
+<p>&#x79FB;&#x4F4D;&#x8FD0;&#x7B97;&#x79FB;&#x52A8;&#x6A21;&#x5F0F;&#x4E2D;&#x7684;&#x4F4D;&#xFF0C;&#x6539;&#x53D8;&#x4F4D;&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x5B83;&#x4EEC;&#x80FD;&#x5411;&#x5DE6;&#x6216;&#x5411;&#x53F3;&#x79FB;&#x52A8;&#x4F4D;&#xFF0C;&#x5171;&#x5206;&#x4E3A;&#x4E24;&#x5927;&#x7C7B;</p>
+<ul>
+<li>&#x903B;&#x8F91;&#x79FB;&#x4F4D;&#x8FD0;&#x7B97;</li>
+<li>&#x7B97;&#x6570;&#x79FB;&#x4F4D;&#x8FD0;&#x7B97;</li>
+</ul>
+<h3 id="&#x903B;&#x8F91;&#x79FB;&#x4F4D;&#x8FD0;&#x7B97;">&#x903B;&#x8F91;&#x79FB;&#x4F4D;&#x8FD0;&#x7B97;</h3>
+<p>&#x903B;&#x8F91;&#x79FB;&#x4F4D;&#x8FD0;&#x7B97;&#x5E94;&#x7528;&#x4E0E;&#x4E0D;&#x5E26;&#x7B26;&#x53F7;&#x4F4D;&#x7684;&#x6570;&#x7684;&#x6A21;&#x5F0F;&#xFF0C;&#x56E0;&#x4E3A;&#x8FD9;&#x4E9B;&#x79FB;&#x4F4D;&#x8FD0;&#x7B97;&#x53EF;&#x80FD;&#x4F1A;&#x6539;&#x53D8;&#x6570;&#x7684;&#x7B26;&#x53F7;</p>
+<h4 id="&#x903B;&#x8F91;&#x79FB;&#x4F4D;">&#x903B;&#x8F91;&#x79FB;&#x4F4D;</h4>
+<p>&#x903B;&#x8F91;&#x53F3;&#x79FB;&#x8FD0;&#x7B97;&#x628A;&#x6BCF;&#x4E00;&#x4F4D;&#x5411;&#x53F3;&#x79FB;&#x52A8;&#x4E00;&#x4E2A;&#x4F4D;&#x7F6E;&#xFF0C;&#x6700;&#x53F3;&#x4F4D;&#x88AB;&#x629B;&#x5F03;&#xFF0C;&#x6700;&#x5DE6;&#x4F4D;&#x586B;0</p>
+<p>&#x903B;&#x8F91;&#x5DE6;&#x79FB;&#x8FD0;&#x7B97;&#x628A;&#x6BCF;&#x4E00;&#x4F4D;&#x5411;&#x5DE6;&#x79FB;&#x52A8;&#x4E00;&#x4E2A;&#x4F4D;&#x7F6E;&#xFF0C;&#x6700;&#x5DE6;&#x4F4D;&#x88AB;&#x629B;&#x5F03;&#xFF0C;&#x6700;&#x53F3;&#x4F4D;&#x586B;0</p>
+<p><img src="pic/pic7.png" alt="image-20211225162403104"></p>
+<p>&#x4EE5;&#x4E0A;&#x4E3E;&#x4F8B;</p>
+<p><img src="pic/pic8.png" alt="image-20211226111025866"></p>
+<h4 id="&#x5FAA;&#x73AF;&#x79FB;&#x4F4D;">&#x5FAA;&#x73AF;&#x79FB;&#x4F4D;</h4>
+<p>&#x5FAA;&#x73AF;&#x79FB;&#x4F4D;&#x8FD0;&#x7B97;&#xFF08;&#x65CB;&#x8F6C;&#x8FD0;&#x7B97;&#xFF09;&#x5BF9;&#x4F4D;&#x8FDB;&#x884C;&#x554A;&#x552F;&#x4E00;&#xFF0C;&#x4F46;&#x6CA1;&#x6709;&#x4F4D;&#x88AB;&#x4E22;&#x5F03;&#x6216;&#x589E;&#x52A0;&#xFF0C;&#x5FAA;&#x73AF;&#x53F3;&#x79FB;&#xFF08;&#x6216;&#x53F3;&#x65CB;&#x8F6C;&#xFF09;&#x628A;&#x6BCF;&#x4E00;&#x4F4D;&#x5411;&#x53F3;&#xFF0C;&#x6700;&#x53F3;&#x4F4D;&#x5230;&#x6700;&#x5DE6;</p>
+<p><img src="pic/pic9.png" alt="image-20211226111354299"></p>
+<p>&#x4E3E;&#x4F8B;&#x8BF4;&#x660E;</p>
+<p><img src="pic/pic10.png" alt="image-20211226111422145"></p>
+<h4 id="&#x7B97;&#x6570;&#x79FB;&#x4F4D;&#x8FD0;&#x7B97;">&#x7B97;&#x6570;&#x79FB;&#x4F4D;&#x8FD0;&#x7B97;</h4>
+<p>&#x7B97;&#x6570;&#x79FB;&#x4F4D;&#x8FD0;&#x7B97;&#x5047;&#x5B9A;&#x4F4D;&#x6A21;&#x5F0F;&#x662F;&#x7528;&#x4E8C;&#x8FDB;&#x5236;&#x8865;&#x7801;&#x683C;&#x5F0F;&#x8868;&#x793A;&#x7684;&#x5E26;&#x7B26;&#x53F7;&#x4F4D;&#x7684;&#x6574;&#x6570;&#x3002;</p>
+<p>&#x7B97;&#x6570;&#x53F3;&#x79FB;&#x88AB;&#x7528;&#x6765;&#x5BF9;&#x6574;&#x6570;&#x9664;&#x4EE5;2&#xFF0C;&#x800C;&#x7B97;&#x6570;&#x5DE6;&#x79FB;&#x88AB;&#x7528;&#x6765;&#x4E58;&#x4EE5;2</p>
+<p>&#x8FD9;&#x4E9B;&#x8FD0;&#x7B97;&#x5E76;&#x4E0D;&#x6539;&#x53D8;&#x7B26;&#x53F7;&#x4F4D;&#xFF08;&#x6700;&#x5DE6;&#x4F4D;&#xFF09;</p>
+<p>&#x7B97;&#x6570;&#x53F3;&#x79FB;&#x4FDD;&#x7559;&#x7B26;&#x53F7;&#x4F4D;&#xFF0C;&#x4F46;&#x540C;&#x65F6;&#x4E5F;&#x628A;&#x4ED6;&#x590D;&#x5236;&#xFF0C;&#x653E;&#x5165;&#x76F8;&#x90BB;&#x7684;&#x53F3;&#x8FB9;&#x7684;&#x4F4D;&#x4E2D;</p>
+<p>&#x7B97;&#x6570;&#x5DE6;&#x79FB;&#x4E22;&#x5F03;&#x7B26;&#x53F7;&#x4F4D;&#xFF0C;&#x63A5;&#x53D7;&#x5B83;&#x53F3;&#x8FB9;&#x7684;&#x4F4D;&#x4F5C;&#x4E3A;&#x7B26;&#x53F7;&#x4F4D;</p>
+<p>&#x5982;&#x679C;&#x65B0;&#x7684;&#x7B26;&#x53F7;&#x4F4D;&#x4E0E;&#x539F;&#x5148;&#x7684;&#x76F8;&#x540C;&#xFF0C;&#x90A3;&#x4E48;&#x8FD0;&#x7B97;&#x6210;&#x529F;&#xFF0C;&#x5426;&#x5219;&#x4F1A;&#x51FA;&#x73B0;&#x6EA2;&#x51FA;</p>
+<p><img src="pic/pic11.png" alt="image-20211226112218580"></p>
+<p>&#x5728;&#x4F8B;4.12&#x4E2D;&#xFF0C;&#x6839;&#x636E;&#x6574;&#x6570;&#x7684;&#x8865;&#x7801;&#x5B58;&#x50A8;</p>
+<p>&#x4F4D;&#x6A21;&#x5F0F;10011001&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x8865;&#x7801;&#x5B58;&#x50A8;&#x540E;&#x7684;&#x7ED3;&#x679C;</p>
+<p>&#x8F6C;&#x6362;&#x540E;&#x4F4D;01100111&#x624D;&#x662F;103</p>
+<p>&#x8FD0;&#x7B97;&#x8FC7;&#x7A0B;&#x5982;&#x56FE;</p>
+<p><img src="pic/pic12.png" alt="image-20211226194924662"></p>
+<p>&#x518D;&#x7ED9;&#x51FA;&#x4E00;&#x4E2A;&#x975E;&#x6CD5;&#x6EA2;&#x51FA;&#x7684;&#x6848;&#x4F8B;</p>
+<p><img src="pic/pic13.png" alt="image-20211226195236750"></p>
+<p>&#x5047;&#x8BBE;&#x6709;&#x4E00;&#x4E2A;&#x6A21;&#x5F0F;&#xFF0C;&#x5728;&#x5224;&#x65AD;&#x8FC7;&#x7A0B;&#x4E2D;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x6B64;&#x6A21;&#x5F0F;&#x7684;&#x7B2C;&#x4E09;&#x4F4D;&#xFF08;&#x4ECE;&#x53F3;&#x8D77;&#xFF09;&#x662F;0&#x8FD8;&#x662F;1&#xFF0C;&#x8FD0;&#x7B97;&#x8FC7;&#x7A0B;&#x5982;&#x4E0B;</p>
+<p><img src="pic/pic14.png" alt="image-20211226195532262"></p>
+<h2 id="&#x7B97;&#x6570;&#x8FD0;&#x7B97;">&#x7B97;&#x6570;&#x8FD0;&#x7B97;</h2>
+<p>&#x4E5F;&#x5C31;&#x662F;&#x52A0;&#x51CF;&#x4E58;&#x9664;&#xFF0C;&#x9002;&#x7528;&#x4E8E;&#x6574;&#x6570;&#x548C;&#x6D6E;&#x70B9;&#x6570;</p>
+<h3 id="&#x6574;&#x6570;&#x7684;&#x7B97;&#x6570;&#x8FD0;&#x7B97;">&#x6574;&#x6570;&#x7684;&#x7B97;&#x6570;&#x8FD0;&#x7B97;</h3>
+<p>&#x867D;&#x7136;&#x6574;&#x6570;&#x7684;&#x4E58;&#x6CD5;&#xFF08;&#x9664;&#x6CD5;&#xFF09;&#x80FD;&#x901A;&#x8FC7;&#x91CD;&#x590D;&#x7684;&#x52A0;&#x6CD5;&#xFF08;&#x51CF;&#x6CD5;&#xFF09;&#x6765;&#x5B9E;&#x73B0;&#xFF0C;&#x4F46;&#x7A0B;&#x5E8F;&#x662F;&#x4F4E;&#x6548;&#x7387;&#x7684;&#xFF0C;&#x4F46;Booth&#x7A0B;&#x5E8F;&#x8FD9;&#x79CD;&#x9AD8;&#x6548;&#x7684;&#x8D85;&#x51FA;&#x4E86;&#x672C;&#x4E66;&#x8303;&#x56F4;&#xFF0C;&#x6240;&#x4EE5;&#x53EA;&#x505A;&#x52A0;&#x6CD5;&#x51CF;&#x6CD5;</p>
+<h4 id="&#x4E8C;&#x8FDB;&#x5236;&#x8865;&#x7801;&#x6574;&#x6570;&#x7684;&#x52A0;&#x51CF;&#x6CD5;">&#x4E8C;&#x8FDB;&#x5236;&#x8865;&#x7801;&#x6574;&#x6570;&#x7684;&#x52A0;&#x51CF;&#x6CD5;</h4>
+<p>&#x4E8C;&#x8FDB;&#x5236;&#x8865;&#x7801;&#x5B58;&#x50A8;&#x7684;&#x6574;&#x6570;&#x7684;&#x52A0;&#x51CF;&#x6CD5;&#x6CA1;&#x6709;&#x533A;&#x522B;</p>
+<p><img src="D:\Github\wiki\ComputerScience\Foundation of Computer Science\4-Operations on Data\pic\pic15.png" alt="image-20211226201156129"></p>
+<p>&#x5F53;&#x9047;&#x5230;&#x51CF;&#x6CD5;&#x8FD0;&#x7B97;&#x65F6;&#xFF0C;&#x8BA1;&#x7B97;&#x673A;&#x53EA;&#x7B80;&#x5355;&#x7684;&#x628A;&#x5B83;&#x8F6C;&#x53D8;&#x4E3A;&#x52A0;&#x6CD5;&#xFF0C;&#x4F46;&#x8981;&#x4E3A;&#x7B2C;&#x4E8C;&#x4E2A;&#x6570;&#x6C42;&#x4E8C;&#x8FDB;&#x5236;&#x7684;&#x8865;&#x7801;</p>
+<p>&#x548C;&#x5341;&#x8FDB;&#x5236;&#x52A0;&#x6CD5;&#x4E00;&#x6837;&#xFF0C;&#x4E8C;&#x8FDB;&#x5236;&#x52A0;&#x6CD5;&#x4E5F;&#x5C31;&#x662F;&#x76F8;&#x540C;&#x5217;&#x76F8;&#x52A0;&#x7136;&#x540E;&#x6709;&#x8FDB;&#x4F4D;&#x5219;&#x8FDB;&#x5230;&#x4E0B;&#x4E00;&#x5217;&#x4E0A;&#xFF0C;&#x4F46;&#x662F;&#x6700;&#x540E;&#x4E00;&#x5217;&#x7684;&#x8FDB;&#x4F4D;&#x88AB;&#x820D;&#x5F03;</p>
+<p><img src="pic/pic16.png" alt="image-20211226201643602"></p>
+<p>&#x8BA1;&#x7B97;A=(00010001)<sub>2</sub>&#x4E0E;B=(00010110)<sub>2</sub>&#x76F8;&#x52A0;</p>
+<p><img src="pic/pic17.png" alt="image-20211226202022562"></p>
+<p>&#x4EE5;&#x4E0B;&#x4E3A;&#x4E00;&#x4E9B;&#x793A;&#x4F8B;</p>
+<p><img src="pic/pic18.png" alt="image-20211226202146452"></p>
+<p>&#x4EE5;&#x53CA;&#x4E00;&#x4E2A;&#x6EA2;&#x51FA;&#x7684;&#x4F8B;&#x5B50;</p>
+<p><img src="pic/pic19.png" alt="image-20211226202219732"></p>
+<p>&#x56E0;&#x4E3A;&#x6B64;&#x65F6;&#x4E00;&#x5171;&#x516B;&#x4F4D;&#xFF0C;&#x5305;&#x542B;&#x4E00;&#x4F4D;&#x7B26;&#x53F7;&#x4F4D;</p>
+<p>&#x4E03;&#x4F4D;&#x6700;&#x5927;&#x8868;&#x793A;1111111&#x4E5F;&#x5C31;&#x662F;127</p>
+<h4 id="&#x7B26;&#x53F7;&#x52A0;&#x7EDD;&#x5BF9;&#x503C;&#x6574;&#x6570;&#x7684;&#x52A0;&#x51CF;&#x6CD5;">&#x7B26;&#x53F7;&#x52A0;&#x7EDD;&#x5BF9;&#x503C;&#x6574;&#x6570;&#x7684;&#x52A0;&#x51CF;&#x6CD5;</h4>
+<p>&#x9996;&#x5148;&#x8BF7;&#x67E5;&#x9605;&#x7B26;&#x53F7;&#x52A0;&#x7EDD;&#x5BF9;&#x503C;&#x8868;&#x793A;&#x6CD5;</p>
+<p>&#x5176;&#x5177;&#x6709;&#x56DB;&#x79CD;&#x4E0D;&#x540C;&#x7684;&#x7B26;&#x53F7;&#x7EC4;&#x5408;&#xFF08;&#x4E24;&#x4E2A;&#x7B26;&#x53F7;&#xFF0C;&#x6BCF;&#x4E2A;&#x6709;&#x4E24;&#x4E2A;&#x503C;&#xFF09;</p>
+<p><img src="pic/pic20.png" alt="image-20211226202744288"></p>
+<h3 id="&#x5B9E;&#x6570;&#x7684;&#x7B97;&#x6570;&#x8FD0;&#x7B97;">&#x5B9E;&#x6570;&#x7684;&#x7B97;&#x6570;&#x8FD0;&#x7B97;</h3>
+<p>&#x540C;&#x6837;&#x4E5F;&#x53EA;&#x6709;&#x52A0;&#x51CF;&#x8FD0;&#x7B97;</p>
+<p>&#x8FC7;&#x7A0B;&#x5982;&#x56FE;</p>
+<p><img src="pic/pic21.png" alt="image-20211226203403809"></p>
+<p>&#x4E00;&#x4E9B;&#x8FD0;&#x7B97;&#x793A;&#x4F8B;</p>
+<p><img src="pic/pic22.png" alt="image-20211226203655536"></p>
+<p>&#x4EE5;&#x53CA;&#x6574;&#x6570;&#x8D1F;&#x6570;&#x76F8;&#x52A0;</p>
+<p><img src="pic/pic23.png" alt="image-20211226203827591"></p>
+<p><img src="pic/pic24.png" alt="image-20211226204107439"></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../03-Data Storage/Data Storage.html" class="navigation navigation-prev " aria-label="Previous page: Data Storage">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../05-Computer Organization/Computer Organization.html" class="navigation navigation-next " aria-label="Next page: Computer Organization">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Operations On Data","level":"1.5","depth":1,"next":{"title":"Computer Organization","level":"1.6","depth":1,"path":"Foundation of Computer Science/05-Computer Organization/Computer Organization.md","ref":"Foundation of Computer Science/05-Computer Organization/Computer Organization.md","articles":[]},"previous":{"title":"Data Storage","level":"1.4","depth":1,"path":"Foundation of Computer Science/03-Data Storage/Data Storage.md","ref":"Foundation of Computer Science/03-Data Storage/Data Storage.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["-summary","livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Foundation of Computer Science/04-Operations on Data/Operations on Data.md","mtime":"2021-12-26T12:42:20.161Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-03-09T07:11:14.019Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
